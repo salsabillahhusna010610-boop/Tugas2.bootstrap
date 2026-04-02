@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMK Digital - TJKT</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="bootstrap/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        :root {
+            --primary-blue: #0d6efd;
+            --dark-bg: #0a192f;
+            --accent-green: #00ff88;
+        }
+        body { font-family: 'Segoe UI', sans-serif; background-color: #f8f9fa; }
+        
+        .hero-section {
+            background: linear-gradient(rgba(10, 25, 47, 0.85), rgba(10, 25, 47, 0.85)), 
+                        url(backgroundtjkt.jpg);
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .registration-card { border-radius: 15px; overflow: hidden; border: none; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        .feature-icon {
+            width: 50px; height: 50px;
+            background-color: #e7f1ff;
+            color: var(--primary-blue);
+            display: flex; align-items: center; justify-content: center;
+            border-radius: 10px; font-size: 24px;
+        }
+        .badge-info { font-size: 0.75rem; border-radius: 20px; padding: 5px 12px; }
+        footer { background-color: var(--dark-bg); color: #8892b0; padding: 30px 0; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+    <div class="navbar" id="b"></div>
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #1a1e21;">
+  <div class="container">
+    <img src="logo.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+    <a class="navbar-brand fw-bold" href="#">SMK DIGITAL</a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto text-uppercase" style="font-size: 0.85rem;">
+        <li class="nav-item"><a class="nav-link px-3" href="index.html#b">Beranda</a></li>
+        <li class="nav-item"><a class="nav-link px-3" href="index.html#visi-misi">Visi Misi</a></li>
+        <li class="nav-item"><a class="nav-link px-3 " href="index.html#data siswa">Data Siswa</a></li>
+        <a class="btn btn-dark dropdown-toggle" href="index.html#jurusan" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+    Jurusan
+  </a>
+
+  <div class="dropdown"></div>
+  <ul class="dropdown-menu dropdown-menu-end">
+    <li><a class="dropdown-item" href="PPLG.html">PPLG</a></li>
+    <li><a class="dropdown-item" href="TJKT.html">TJKT</a></li>
+    <li><a class="dropdown-item" href="KULINER.html">KULINER</a></li>
+    <li><a class="dropdown-item" href="BUSANA.html">BUSANA</a></li>
+    <li><a class="dropdown-item" href="OTOMOTIF.html">OTOMOTIF</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="index.html#JURUSAN">Lihat Semua</a></li>
+  </ul>
+</div>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="container">
+            <h1 class="fw-bold mb-3">TEKNIK JARINGAN KOMPUTER DAN TELEKOMUNIKASI</h1>
+            <p class="mx-auto" style="max-width: 800px; opacity: 0.9;">
+                Membentuk tenaga ahli di bidang infrastruktur jaringan, keamanan siber, dan administrasi server untuk mendukung transformasi digital global.
+            </p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        <div class="row g-5">
+            <!-- Left Side -->
+            <div class="col-lg-8">
+                <section class="mb-5">
+                    <h2 class="fw-bold mb-4">Menghubungkan Dunia Melalui Infrastruktur IT</h2>
+                    <p class="text-muted" style="line-height: 1.8;">
+                        TJKT adalah program keahlian yang fokus pada perancangan, instalasi, dan pengelolaan jaringan komputer serta sistem telekomunikasi. Siswa akan mempelajari cara membangun jaringan LAN/WAN, mengelola server berbasis Linux/Windows, hingga mengamankan data dari ancaman siber.
+                    </p>
+                </section>
+
+                <!-- Specialties TJKT -->
+                <div class="row g-4 mb-5">
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-start p-4 border rounded shadow-sm bg-white">
+                            <div class="feature-icon me-3"><i class="bi bi-router"></i></div>
+                            <div>
+                                <h6 class="fw-bold mb-1">Network Engineer</h6>
+                                <p class="small text-muted mb-0">Konfigurasi Mikrotik, Cisco, dan Fiber Optic (FTTH).</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-start p-4 border rounded shadow-sm bg-white">
+                            <div class="feature-icon me-3" style="background-color: #fff5e6; color: #fd7e14;"><i class="bi bi-shield-lock"></i></div>
+                            <div>
+                                <h6 class="fw-bold mb-1">Cyber Security</h6>
+                                <p class="small text-muted mb-0">Proteksi jaringan, firewall, dan mitigasi serangan digital.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fasilitas -->
+                <section>
+                    <h5 class="fw-bold mb-4">Fasilitas & Kompetensi</h5>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                            Laboratorium Cisco & Mikrotik
+                            <span class="badge bg-primary badge-info">Standard Industri</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                            Cloud Computing & Server Virtualization
+                            <span class="badge bg-primary badge-info">Proxmox/AWS</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                            Uji Kompetensi LSP-P1
+                            <span class="badge bg-primary badge-info">Sertifikat BNSP</span>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+
+            <!-- Right Side: Registration & Testimonial -->
+            <div class="col-lg-4">
+                <div class="card registration-card mb-4">
+                    <div class="card-header bg-dark text-white text-center py-3">
+                        <h6 class="mb-0 fw-bold">Status Pendaftaran</h6>
+                    </div>
+                    <div class="card-body p-4">
+                        <div class="d-flex justify-content-between mb-2">
+                            <small class="fw-bold">Kuota Terisi</small>
+                            <small class="fw-bold">80%</small>
+                        </div>
+                        <div class="progress mb-4" style="height: 10px;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%"></div>
+                        </div>
+<a href="#" class="btn btn-primary w-100 fw-bold py-2 mv-2 mt-4 mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal">DAFTAR SEKARANG</a>
+           <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header bg-primary">
+                <h1 class="modal-title fs-5 bg-primary text-white" id="exampleModalLabel"><i class="bi bi-person-fill-add" style="margin-right: 10px;"></i>Tambah Siswa Baru</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+           <div class="mb-3">
+            <label for="disabledTextInput" class="form-label fw-bold">Nama Lengkap</label>
+            <input type="text" id="disabledTextInput" class="form-control" placeholder="Masukkan Nama Anda...">
+            </div>
+            <div class="mb-3">
+            <label for="disabledTextInput" class="form-label fw-bold">NIS</label>
+            <input type="text" id="disabledTextInput" class="form-control" placeholder="Masukkan NIS Anda...">
+            </div>
+             <div class="mb-3">
+            <label for="disabledTextInput" class="form-label fw-bold">TTL</label>
+            <input type="text" id="disabledTextInput" class="form-control" placeholder="Contoh : Semarang, 23 Juni 2009">
+            </div>
+            <div class="mb-3">
+            <label for="disabledSelect" class="form-label fw-bold">Jenis Jalur Pendaftaran</label>
+            <select id="disabledSelect" class="form-select" placeholder="Pilih Jalur...">
+                <option>Pilih Jalur...</option>
+                <option>Prestasi</option>
+                <option>Domisili</option>
+                <option>Tes</option>
+                <option>Mutasi</option>
+            </select>
+            </div>
+            <div class="mb-3">
+            <label for="formFile" class="form-label fw-bold">Foto Siswa</label>
+            <input class="form-control" type="file" id="formFile">
+            <div id="passwordHelpBlock" class="form-text">
+            Format: JPG, PNG (Maks 5MB)
+            </div>
+            </div>
+            </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                <button type="button" class="btn btn-primary">Daftar</button>
+            </div>
+            </div>
+        </div>
+        </div>
+             <button onclick="location.href='index.html'" class="btn btn-light w-100 text-secondary small"> <i class="bi bi-arrow-left me-2"></i>Kembali</button>
+          </div>
+        </div>
+
+
+                <!-- Card Alumni -->
+                <div class="sidebar-card overflow-hidden">
+                    <img src="alumnitjkt.jpg" class="img-fluid w-100" style="height: 220px; object-fit: cover;">
+                    <div class="p-4">
+                        <p class="fst-italic text-muted small mb-3">
+                            "Belajar di T SMK Digital membuka wawasan saya tentang dunia startup teknologi."
+                        </p>
+                        <hr>
+                        <p class="fw-bold small mb-0">- Alvaro, Alumni 2025</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </main>
+    
+ 
+   <footer class="footer-full text-center">
+    © 2026 Sistem Manajemen Siswa. Seluruh Hak Cipta Dilindungi.
+</footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</html>file:///storage/emulated/0/XPPLG4BILA/TJKT.html
